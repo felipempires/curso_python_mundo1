@@ -1,0 +1,2 @@
+value = float(input('Type a measure (in meters): '))
+print(f'The measure of {value} m is equal to: \n{value / 1000} km. \n{value / 100} hm. \n{value / 10} dam. \n{value * 10} dm. \n{value * 100} cm. \n{value * 1000} mm.')

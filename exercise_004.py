@@ -1,0 +1,8 @@
+value = input('Type something: ')
+print(f'The primitive type of this value is {type(value)}')
+print(f'There is only spaces: {value.isspace()}')
+print(f'it is numeric: {value.isnumeric()}')
+print(f'It is alpha: {value.isalpha()}')
+print(f'It is alpha numeric: {value.isalnum()}')
+print(f'It is only lowercase: {value.islower()}')
+print(f'It is only upper case: {value.isupper()}')
